@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
     <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 p{
- font-size: 25px;
- color: gold;
+    font-size: 25px;
+    color: gold;
 }
 .row{
         display: flex;
         background-color: rgb(132, 132, 236);
-      }
+        width: 1300px;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
 .column{
             flex: 40%;
             padding: 45px;
-      }
+            width: 1300px;
+            margin-left: 15px;
+        }
 .class{
     width: 100%;
     height: auto;
     display: block;
-    padding: 0px;
-      }
+    }
     </style>
 </head>
 <body bgcolor=rgb(0,0,300)>
@@ -29,7 +35,7 @@ p{
     <a href="Order.html" style="color: rgb(228, 226, 108); font-size: 25px;">Order</a>
 <br> <br> <br> <br>
 <div class="class">
-<video width="1000" height="500" autoplay loop> 
+<video aspect-ratio="16/9" width="1300px" autoplay loop style="margin-left: -10px;"> 
 <source src="Untitled video - Made with Clipchamp.mp4" type= "video/mp4">
 </video>
 </div>
@@ -39,21 +45,27 @@ p{
 <p> We also take orders from schools, churches, offices and workplaces</p>
 <p> OA locals priority is seeking on maximizing customer satisfaction to its fullest</p>
 <br> <br> <br>
-<div class="row" style="height: 400px;"> 
+<div class="row" style="height: 500px;"> 
     <div class="column">
-   <p style="font-size: 25px;"> Enter your e-mail address<input type="email"></p>
-   <a href="About.html" style="color: rgb(228, 226, 108); font-size: 25px;">About</a>
-   <br> <br> <br>
-   <a href="index.html" style="color: rgb(228, 226, 108); font-size: 25px;">Home</a>
-   </div>
-   <div class="column">
-    <br> 
-    <a href="" style="color: rgb(228, 226, 108); font-size: 25px;">Contact</a>
+    <p style="font-size: 25px;"> Enter your comments<input type="email"></p>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"><a href="About.html" style="color: rgb(228, 226, 108); font-size: 25px;"><img src="i.png" alt="About" style="color: rgb(228, 226, 108); height: 25px; width: 25px;"></a> About</p>
     <br> <br>
-    <a href="" style="color: rgb(228, 226, 108); font-size: 25px;">www.oa's locals.com</a>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"><a href="index.html" style="color: rgb(228, 226, 108); font-size: 25px;"> <ion-icon name="home"></ion-icon></a> Home</p>
     <br> <br>
-    <a href="Order.html" style="color: rgb(228, 226, 108); font-size: 25px;">Order</a>
-   </div>
-   </div>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"><a href="Order.html" style="color: rgb(228, 226, 108); font-size: 25px;"> <ion-icon name="cart"></ion-icon></a> Order</p>
+<br> <br> <br>
+    </div>
+    <div class="column">
+    
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"> <ion-icon name="call"></ion-icon> Contact us on 025567894</p>
+    <br>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"> <ion-icon name="logo-whatsapp" style="font-size: 32px; color: #18521D;"></ion-icon> Whatsapp us on 054321678</p>
+    <br> <br>
+    <a href="oa.html" style="color: rgb(228, 226, 108); font-size: 25px;">www.oa's locals.com</a>
+    <br> <br>
+    </div>
+    </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

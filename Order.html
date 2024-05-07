@@ -2,22 +2,29 @@
 <html lang="en">
 <head>
     <title>Order</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
     body{
-     background-image: url("obg.jpg");  
+    background-image: url("obg.jpg");  
     background-size: cover;
 }
 p{
- font-size: 25px;
- color: rgb(228, 226, 108);
+  font-size: 25px;
+  color: black;
 }
 .row{
         display: flex;
         background-color: rgb(132, 132, 236);
+        width: 1300px;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-bottom: -10px;
       }
 .column{
             flex: 40%;
             padding: 45px;
+            width: 1300px;
+            margin-left: 15px;
       }
     </style>
 </head>
@@ -26,27 +33,47 @@ p{
 <br> <br>
 <a href="About.html" style="color: rgb(228, 226, 108); font-size: 25px;">About</a>
 <br> <br> <br>
+<div style="display: flex; background-color: yellow; width: 1300px; margin-left: -10px;">
+<div style=" flex: 40%; padding: 45px; width: 1300px;">
 <h1 style="color: black;"> Here is a list of available foods</h1>
-<p class="p"> Fufu and goat lightsoup 20 cedis</p>
-<p> Banku and okrosoup 15 cedis</p>
-<p> Omotuo and groundnutsoup 15 cedis</p>
-<p> Konkonte and palmnutsoup 15 cedis</p>
-<br> <br> <br>
-<div class="row" style="height: 400px;"> 
+<p class="p"> Fufu and goat lightsoup GH₵20.00 </p>
+<p> Banku and okrosoup GH₵15.00 </p>
+<p> Omotuo and groundnutsoup GH₵15.00 </p>
+<p> Konkonte and palmnutsoup GH₵15.00</p>
+</div>
+  <div style=" flex: 40%;  padding: 45px; width: 1300px; background-color: rgb(64, 64, 216); margin-right: -15px; height: 290px;">
+  <p style="font-size: 25px; color: black;">
+        Enter the food you like to order <input type="text">
+    </p>
+  <p style="font-size: 25px; color: black;">
+        Please enter your location <input type="text">
+    </p>
+  <p style="font-size: 25px; color: black;">
+        Enter your contact <input type="text">
+    </p>
+  </div>
+</div>
+<div class="row" style="height: 500px;"> 
     <div class="column">
-   <p style="font-size: 25px;"> Enter your e-mail address<input type="email"></p>
-   <a href="About.html" style="color: rgb(228, 226, 108); font-size: 25px;">About</a>
-   <br> <br> <br>
-   <a href="index.html" style="color: rgb(228, 226, 108); font-size: 25px;">Home</a>
-   </div>
-   <div class="column">
-    <br> 
-    <a href="" style="color: rgb(228, 226, 108); font-size: 25px;">Contact</a>
+    <p style="font-size: 25px;"> Enter your comments<input type="email"></p>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"><a href="About.html" style="color: rgb(228, 226, 108); font-size: 25px;"><img src="i.png" alt="About" style="color: rgb(228, 226, 108); height: 25px; width: 25px;"></a> About</p>
     <br> <br>
-    <a href="" style="color: rgb(228, 226, 108); font-size: 25px;">www.oa's locals.com</a>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"><a href="index.html" style="color: rgb(228, 226, 108); font-size: 25px;"> <ion-icon name="home"></ion-icon></a> Home</p>
     <br> <br>
-    <a href="Order.html" style="color: rgb(228, 226, 108); font-size: 25px;">Order</a>
-   </div>
-   </div>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"><a href="Order.html" style="color: rgb(228, 226, 108); font-size: 25px;"> <ion-icon name="cart"></ion-icon></a> Order</p>
+<br> <br> <br>
+    </div>
+    <div class="column">
+    
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"> <ion-icon name="call"></ion-icon> Contact us on 025567894</p>
+    <br>
+    <p style="color: rgb(228, 226, 108); font-size: 25px; display: inline-block;"> <ion-icon name="logo-whatsapp" style="font-size: 32px; color: #18521D;"></ion-icon> Whatsapp us on 054321678</p>
+    <br> <br>
+    <a href="oa.html" style="color: rgb(228, 226, 108); font-size: 25px;">www.oa's locals.com</a>
+    <br> <br>
+    </div>
+    </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
